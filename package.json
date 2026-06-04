@@ -1,9 +1,29 @@
 {
   "name": "scooter-classifier-client",
   "version": "0.1.0",
+  "description": "JavaScript client for the scooter parking compliance classifier. Wraps the Hugging Face Space in a small, framework-agnostic module.",
   "type": "module",
   "exports": "./src/index.js",
   "main": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "scooter",
+    "e-scooter",
+    "parking",
+    "compliance",
+    "gradio",
+    "huggingface",
+    "classifier"
+  ],
+  "author": "David Albrecht <david@flyermojo.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/albrecht-stadtberatung/scooter-classifier-client.git"
+  },
+  "homepage": "https://github.com/albrecht-stadtberatung/scooter-classifier-client",
   "dependencies": {
     "@gradio/client": "^2.2.0"
   }
