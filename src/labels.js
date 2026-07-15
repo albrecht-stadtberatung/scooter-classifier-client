@@ -4,6 +4,9 @@ export const ACCEPTABLE = new Set([
   'Parked at bike rack',
   'Parked in dedicated parking zone',
   'Parked in a car parking space',
+  'Niche Parking',
+  'Cobble Stone Strip inner side',
+  'Cobble Stone Strip outer side',
 ])
 
 export const LABEL_DE = {
@@ -32,4 +35,10 @@ export const LABEL_DE = {
   'Wild scooter pileup':                 'Rollerhaufen',
   'Parked on walkable space':            'Auf Gehfläche',
   'Not aligned with surroundings':       'Nicht ausgerichtet',
+  'Parked among furniture':              'Zwischen Außenmobiliar abgestellt',
+  'Blocking staircase':                  'Blockiert eine Treppe',
+  'Not alligned with perpendicular bike rack': 'Nicht zum (Serien-)Fahrradständer ausgerichtet',
+  'Niche Parking':                       'In einer Niche abgestellt',
+  'Cobble Stone Strip inner side':       'Steht auf dem inneren Kopfsteinpflasterstreifen',
+  'Cobble Stone Strip outer side':       'Steht auf dem äußeren Kopfsteinpflasterstreifen',
 }
