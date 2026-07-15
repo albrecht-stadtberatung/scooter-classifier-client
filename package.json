@@ -1,6 +1,6 @@
 {
   "name": "scooter-classifier-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JavaScript client for the scooter parking compliance classifier. Wraps the Hugging Face Space in a small, framework-agnostic module.",
   "type": "module",
   "exports": "./src/index.js",
